@@ -1,0 +1,45 @@
+<html>  
+	<body>
+		<script>
+			alert("eerste berekening")  								// eerste berekening
+			var multiplier = prompt("welke tafel wil je");				// welke tafel
+			
+			var result1x = 1 * multiplier								// berekening x10
+			var result2x = 2 * multiplier	
+			var result3x = 3 * multiplier	
+			var result4x = 4 * multiplier
+			var result5x = 5 * multiplier	
+			var result6x = 6 * multiplier	
+			var result7x = 7 * multiplier	
+			var result8x = 8 * multiplier	
+			var result9x = 9 * multiplier	
+			var result10x = 10 * multiplier
+
+			document.write("1" + " x " + multiplier + " = " + result1x + "<br>");			// notatie van tafel
+			document.write("2" + " x " + multiplier + " = " + result2x + "<br>");
+			document.write("3" + " x " + multiplier + " = " + result3x + "<br>");
+			document.write("4" + " x " + multiplier + " = " + result4x + "<br>");
+			document.write("5" + " x " + multiplier + " = " + result5x + "<br>");
+			document.write("6" + " x " + multiplier + " = " + result6x + "<br>");
+			document.write("7" + " x " + multiplier + " = " + result7x + "<br>");
+			document.write("8" + " x " + multiplier + " = " + result8x + "<br>");
+			document.write("9" + " x " + multiplier + " = " + result9x + "<br>");
+			document.write("10" + " x " + multiplier + " = " + result10x + "<br>");
+
+
+			alert("2e berekening")																// melding 2 e berekening
+			var basisnumer = prompt("Met welk getal wil je beginnen")							// begin getal
+			var optelgetal = prompt("Welk getal wil je erbij optellen")							// optel getal
+			var vermeenigvuldiging = prompt("Met welk getal wil je het vermeenigvuldiging") 	// vermeenigvuldigings getal
+			var deelgetal = prompt("door welk getal wil je het delen")							// deel getal
+			var aftrekgetal = prompt("welk getal wil je ervan aftrekken")						// aftrek getal
+
+			var telop = basisnumer + optelgetal												// berekening
+			var vermeenig = telop * vermeenigvuldiging 
+			var deele = vermeenig / deelgetal 
+			var aftrekken = deele - aftrekgetal
+			var uitkomst = aftrekken / 10
+			document.write("<br>" + basisnumer + " + " + optelgetal + " x " + vermeenigvuldiging + " : " + deelgetal + " - " + aftrekgetal + " = " + uitkomst)  // notatie berekening + uitkomst
+		</script>
+	</body>
+<html>		
